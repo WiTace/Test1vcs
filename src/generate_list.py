@@ -1,9 +1,9 @@
 import random
 def generate_list():
         alist = [x for x in range(random.radint(-10,10))]
+        assert:
         return alist
-    """
-    git print(generate_list)
+    """git print(generate_list)
     """
 def printIt()
     print(generate_list())
@@ -16,4 +16,3 @@ def main():
     if _name_=='_main_':
         print("Test printIt():")
         main()
-        
